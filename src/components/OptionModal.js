@@ -12,7 +12,7 @@ const OptionModal = (props) => (
     <h3 className="modal__title" >Selected option</h3>
     { props.selectedOption && <p className="modal__body">{ props.selectedOption }</p> }
     <button
-      className="button"
+      className="button hvr-bounce-in"
       onClick= { props.handleClearSelectedOptions }
     >
       Okey

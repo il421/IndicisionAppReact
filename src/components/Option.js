@@ -4,7 +4,7 @@ const Option = (props) => (
   <div className="option">
     <p className="option__text">{ props.count }. { props.optionText }</p>
     <button 
-      className="button button--link"
+      className="button button--link hvr-wobble-horizontal"
       onClick={() => {
         props.handleDeleteOption(props.optionText)
       }}

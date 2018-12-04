@@ -6,7 +6,7 @@ const Options = (props) => (
     <div className="widget-header">
       <h3 className="widget-header__title">Your Options</h3>
       <button 
-        className="button button--link"
+        className="button button--link hvr-shadow-radial"
         disabled={ props.options.length <= 0 } 
         onClick={ props.handleDeleteOptions }
       >
